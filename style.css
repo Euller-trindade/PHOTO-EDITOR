@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+main {
+  width: 500px;
+  height: 540px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px 4px rgba(1, 2, 2, 0.5);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 1px 2px black;
+  border-radius: 5px;
+}
+.img-content {
+  width: 100%;
+
+  margin: 10px 0;
+  background-color: #eee;
+  overflow: hidden;
+}
+.img-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.clearFilters {
+  background-color: #9b0740;
+  color: #fff;
+}
+.btnSalvar {
+  background: #23a6d5;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px black;
+  color: #fff;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.rotate-content button {
+  margin-left: 20px;
+}
+.rotate-content i {
+  font-size: 18px;
+}
+.file {
+  display: none;
+}
+.range {
+  width: 80%;
+}
+.filters-content .active {
+  font-weight: bold;
+}
+input[type="range"] {
+  appearance: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 12.8px;
+  background: #9b0740;
+  border-radius: 25px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  height: 20px;
+  width: 39px;
+  border-radius: 7px;
+  background: rgb(255, 255, 255);
+  border: 1px solid;
+  cursor: pointer;
+  appearance: none;
+  margin-top: -3.6px;
+}

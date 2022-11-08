@@ -95,3 +95,15 @@ input[type="range"]::-webkit-slider-thumb {
   appearance: none;
   margin-top: -3.6px;
 }
+@media (min-width: 700px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+   
+  }
+  .img-content{
+    max-height: 400px;
+   
+  }
+}
